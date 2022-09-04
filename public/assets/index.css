@@ -1,4 +1,9 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@font-face {
+    font-family: "Optical";
+    src: url("assets/fonts/saonormal.ttf") format("truetype");
+}
+
+
 body {
     margin: 0;
 }
@@ -160,6 +165,7 @@ a:hover {
 }
 
 .project-tagline {
+    font-family: "Optical";
     margin-bottom: 0rem;
     font-weight: bold;
     opacity: 0.7;
